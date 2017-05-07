@@ -1,0 +1,206 @@
+/* Sticky footer styles */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background: #f4f4f4;
+}
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+/*  Making navbar thinner  */
+.navbar{
+  min-height: 33px !important;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.navbar-nav > li > a, .navbar-brand{
+  padding-top: 6px !important;
+  padding-bottom: 0 !important;
+  height: 33px;
+}
+
+
+/* Coloring navbar */
+.navbar-default {
+  background-color: #e74c1c;
+  border-color: #c0392b;
+}
+.navbar-default .navbar-brand {
+  color: #f7f5f4;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ecdbff;
+}
+.navbar-default .navbar-text {
+  color: #f7f5f4;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #f7f5f4;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ecdbff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #e74c1c;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #f7f5f4;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #ecdbff;
+  background-color: #c0392b;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #c0392b;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #ecdbff;
+  background-color: #c0392b;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ecdbff;
+  background-color: #c0392b;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ecdbff;
+  background-color: #c0392b;
+}
+.navbar-default .navbar-toggle {
+  border-color: #c0392b;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #c0392b;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #f7f5f4;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #f7f5f4;
+}
+.navbar-default .navbar-link {
+  color: #f7f5f4;
+}
+.navbar-default .navbar-link:hover {
+  color: #ecdbff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #f7f5f4;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ecdbff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ecdbff;
+    background-color: #c0392b;
+  }
+}
+
+/* Responsive Table */
+/*.table-responsive
+{
+  overflow-x: auto !important;
+  overflow-y: hidden;
+}
+
+.table-responsive td, .table-responsive th { 
+  white-space:nowrap; 
+}*/
+
+/*  Creating general colours  */
+.main-color-bg{
+  background-color: #e74c1c !important;
+  border-color: #c0392b !important;
+  color: #ffffff !important;
+}
+
+/* Styling header (under nav) */
+#header{
+  background: #333333;
+  color: #ffffff;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+#header .create{
+  padding: 20px;
+}
+
+/* Styling breadcrumbs */
+.breadcrumb{
+  background: #cccccc;
+  color: #333333;
+}
+
+.breadcrumb a{
+  color: #333333;
+}
+
+/* Styling badegs (listing) */
+.list-group .badge{
+  background: #333333;
+}
+
+/* Styling progress bars */
+.progress-bar{
+  background: #333333;
+  color: #ffffff;
+}
+
+.col-md-3 .well{
+  text-align: center;
+}
+
+/* Styling the footer */
+footer{
+  background: #333333 !important;
+}
+
+footer p{
+  color: #f4f4f4 !important;
+}
+
+/* Styling edit and delete buttons */
+td .btn-danger{
+  margin-left: 10px;
+}
